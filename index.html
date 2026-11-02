@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Air University | Advancing the Frontier</title>
+    <meta name="description"
+        content="Air University: innovative research, transformative education and sustainable development across Pakistan.">
+    <meta name="theme-color" content="#201e6e">
+
+    <!-- Fonts (these were declared in your CSS but never loaded) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.3.8 (latest stable) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Project styles -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+      <!-- ===== NAVBAR ===== -->
+    <header class="navbar navbar-expand-lg navbar-dark navbar-au sticky-top py-3">
+        <div class="container">
+            <a href="#top" class="navbar-brand" aria-label="Air University home">
+                <img src="images/logo.png" class="brand-logo" alt="Air University" width="300" height="246">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNav" aria-label="Primary">
+                <ul class="navbar-nav align-items-lg-center gap-lg-4">
+ 
+                    <!-- ===== MEGA: ACADEMICS ===== -->
+                    <li class="nav-item dropdown has-mega">
+                        <a class="nav-link dropdown-toggle" href="#faculties" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Academics</a>
+                        <div class="dropdown-menu mega-menu">
+                            <div class="container">
+                                <div class="row g-4 g-xl-5">
+                                    <div class="col-lg-3 d-none d-lg-block">
+                                        <span class="section-eyebrow">Academics</span>
+                                        <h3 class="mega-title">Faculties &amp; Programmes</h3>
+                                        <p class="mega-text">Quality education, innovative research and professional
+                                            development across multiple disciplines.</p>
+                                        <a href="#" class="btn btn-au-gold">Apply Now <i
+                                                class="fas fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p class="mega-label">Faculties</p>
+                                        <div class="mega-links two-col">
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/Engineering/faculty_engineering_about.aspx"><span class="mega-ico"><i class="fas fa-gears"></i></span><span class="mega-txt">Faculty of Engineering</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/SocialSciences/academics_faculty_social_sciences.aspx"><span class="mega-ico"><i class="fas fa-people-group"></i></span><span class="mega-txt">Faculty of Social Sciences</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/Basic_Applied_Sciences/faclty_applied_about.aspx"><span class="mega-ico"><i class="fas fa-flask"></i></span><span class="mega-txt">Basic and Applied Sciences</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://fazaiamedical.edu.pk/"><span class="mega-ico"><i class="fas fa-heart-pulse"></i></span><span class="mega-txt">Faculty of Health Sciences</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/IAA/iaa.aspx"><span class="mega-ico"><i class="fas fa-plane"></i></span><span class="mega-txt">Institute of Avionics and Aeronautics</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/DASSS/Departments/AerospaceSciences/dept_aerospace_about.aspx"><span class="mega-ico"><i class="fas fa-rocket"></i></span><span class="mega-txt">Aerospace and Strategic Studies</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/NCSA/NCSA_DEAN_Message.aspx"><span class="mega-ico"><i class="fas fa-shield-halved"></i></span><span class="mega-txt">National Cyber Security Academy</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/FCAI_dean_msg.aspx"><span class="mega-ico"><i class="fas fa-microchip"></i></span><span class="mega-txt">Computing and Artificial Intelligence</span></a>
+                                            <a class="mega-link" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/AUSOM/Department/AUSOM/ausom_about.aspx"><span class="mega-ico"><i class="fas fa-briefcase"></i></span><span class="mega-txt">Air University School of Management</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <p class="mega-label">Programmes</p>
+                                        <div class="mega-links">
+                                            <a class="mega-link mega-stat" href="#programs"><span class="mega-ico"><i class="fas fa-graduation-cap"></i></span><span class="mega-txt">Undergraduate<small>10,500 enrolled</small></span></a>
+                                            <a class="mega-link mega-stat" href="#programs"><span class="mega-ico"><i class="fas fa-book-open"></i></span><span class="mega-txt">Master’s<small>1,219 enrolled</small></span></a>
+                                            <a class="mega-link mega-stat" href="#programs"><span class="mega-ico"><i class="fas fa-user-graduate"></i></span><span class="mega-txt">PhD<small>285 enrolled</small></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+ 
+                    <!-- ===== MEGA: CAMPUS LIFE ===== -->
+                    <li class="nav-item dropdown has-mega">
+                        <a class="nav-link dropdown-toggle" href="#campus" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Campus Life</a>
+                        <div class="dropdown-menu mega-menu">
+                            <div class="container">
+                                <div class="row g-4 g-xl-5">
+                                    <div class="col-lg-3 d-none d-lg-block">
+                                        <span class="section-eyebrow">Campus Life</span>
+                                        <h3 class="mega-title">Life at Air University</h3>
+                                        <p class="mega-text">Discover each campus and the sporting spirit that
+                                            brings our students together.</p>
+                                        <a href="#campus" class="btn btn-au-gold">All Campuses <i
+                                                class="fas fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="mega-label">Campuses</p>
+                                        <div class="mega-links">
+                                            <a class="mega-link" href="#campus"><span class="mega-ico"><i class="fas fa-location-dot"></i></span><span class="mega-txt">Islamabad<small>Main Campus</small></span></a>
+                                            <a class="mega-link" href="#campus"><span class="mega-ico"><i class="fas fa-location-dot"></i></span><span class="mega-txt">Lahore<small>City Campus</small></span></a>
+                                            <a class="mega-link" href="#campus"><span class="mega-ico"><i class="fas fa-location-dot"></i></span><span class="mega-txt">Kamra<small>Aerospace Campus</small></span></a>
+                                            <a class="mega-link" href="#campus"><span class="mega-ico"><i class="fas fa-location-dot"></i></span><span class="mega-txt">Multan<small>South Campus</small></span></a>
+                                            <a class="mega-link" href="#campus"><span class="mega-ico"><i class="fas fa-location-dot"></i></span><span class="mega-txt">Peshawar<small>Regional Campus</small></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <a href="#athletics" class="mega-feature">
+                                            <img src="https://images.unsplash.com/photo-1506277826-0c67dfa382c6?auto=format&fit=crop&w=800&q=70"
+                                                alt="" loading="lazy" onerror="this.style.display='none'">
+                                            <span class="mega-feature-body">
+                                                <span class="mega-feature-tag">Athletics</span>
+                                                <strong>Excellence Beyond Academics</strong>
+                                                <span class="mega-feature-go">Explore <i class="fas fa-arrow-right ms-1"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+ 
+                    <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+ 
+                    <!-- ===== MEGA: ABOUT ===== -->
+                    <li class="nav-item dropdown has-mega">
+                        <a class="nav-link dropdown-toggle" href="#welcome" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">About</a>
+                        <div class="dropdown-menu mega-menu">
+                            <div class="container">
+                                <div class="row g-4 g-xl-5">
+                                    <div class="col-lg-3 d-none d-lg-block">
+                                        <span class="section-eyebrow">About us</span>
+                                        <h3 class="mega-title">Advancing the Frontier</h3>
+                                        <p class="mega-text">Innovative research, transformative education and
+                                            sustainable development.</p>
+                                        <a href="#welcome" class="btn btn-au-gold">Learn More <i
+                                                class="fas fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="mega-label">Discover</p>
+                                        <div class="mega-links">
+                                            <a class="mega-link" href="#welcome"><span class="mega-ico"><i class="fas fa-building-columns"></i></span><span class="mega-txt">Overview<small>Welcome to Air University</small></span></a>
+                                            <a class="mega-link" href="#leadership"><span class="mega-ico"><i class="fas fa-user-tie"></i></span><span class="mega-txt">Vice Chancellor’s Message<small>Leadership</small></span></a>
+                                            <a class="mega-link" href="#news"><span class="mega-ico"><i class="fas fa-newspaper"></i></span><span class="mega-txt">AU News<small>Stories and achievements</small></span></a>
+                                            <a class="mega-link" href="#research"><span class="mega-ico"><i class="fas fa-microscope"></i></span><span class="mega-txt">Research<small>Research for a Better World</small></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <a href="#research" class="mega-feature">
+                                            <img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&fit=crop&w=800&q=70"
+                                                alt="" loading="lazy" onerror="this.style.display='none'">
+                                            <span class="mega-feature-body">
+                                                <span class="mega-feature-tag">Research</span>
+                                                <strong>Research for a Better World</strong>
+                                                <span class="mega-feature-go">Explore <i class="fas fa-arrow-right ms-1"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+ 
+                    <li class="nav-item"><a class="nav-link" href="#" aria-label="Search"><i class="fas fa-search"></i></a></li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-apply" href="#">Apply Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+
+
+    <main id="main">
+
+        <!-- ===== HERO VIDEO ===== -->
+        <section class="hero-video" id="top" aria-label="Introduction">
+            <video autoplay loop muted playsinline preload="auto" aria-hidden="true">
+                <source src="images/air2.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1 class="reveal">Advancing the <em>Frontier</em></h1>
+                <p class="reveal mt-3" style="--reveal-delay:150ms">Innovative research, transformative education and
+                    sustainable development.</p>
+                <div class="reveal mt-4 d-flex gap-3 justify-content-center flex-wrap" style="--reveal-delay:300ms">
+                    <a href="#" class="btn btn-au-gold btn-lg">Apply Now <i class="fas fa-arrow-right ms-2"></i></a>
+                    <a href="#welcome" class="btn btn-outline-light btn-lg rounded-pill px-4">Explore</a>
+                </div>
+            </div>
+            <button class="video-toggle" type="button" aria-label="Pause background video" aria-pressed="false">
+                <i class="fas fa-pause" aria-hidden="true"></i>
+            </button>
+            <a href="#welcome" class="scroll-cue" aria-label="Scroll to content"><i class="fas fa-chevron-down"></i></a>
+        </section>
+
+        <!-- ===== WELCOME ===== -->
+        <section class="welcome-section" id="welcome">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <span class="section-eyebrow reveal">About us</span>
+                        <h2 class="display-3 display-title mt-3 reveal">Welcome to Air University</h2>
+                        <p class="lead-lg mt-4 mb-4 reveal">Air University aspires to be recognized globally in
+                            innovative research, transformative education, and sustainable development. It aims to
+                            foster a culture of creativity, inclusivity, and collaboration, preparing graduates to
+                            become ethical leaders and change-makers in a rapidly evolving world.</p>
+                        <a href="#" class="btn btn-au btn-lg reveal">About Air University <i
+                                class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12 reveal reveal-zoom">
+                        <div id="heroCarousel" class="carousel slide carousel-au" data-bs-ride="carousel"
+                            aria-label="Campus gallery">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="6000">
+                                    <img src="https://szabist-isb.edu.pk/wp-content/uploads/2026/09/787701807_1371955788384199_7839301993663517035_n.jpg" class="d-block w-100"
+                                        alt="Air University Islamabad campus">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="6000">
+                                    <img src="https://scholanova.edu.pk/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-13-at-11.33.25-AM-1280x790.jpg" class="d-block w-100"
+                                        alt="Air University Multan campus">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="6000">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm9D-0wbJSgMAOhKSlcUey9RPcQjEWuAay4F9ZFQ87syHSJDk9LCbmCb0B&s=10"
+                                        class="d-block w-100" alt="Air University Kharian campus">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEWS ===== -->
+        <section class="split-section bg-au-soft" id="news">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="sticky-col">
+                            <span class="section-eyebrow reveal">Latest</span>
+                            <h2 class="display-5 display-title mt-3 mb-3 reveal">AU News</h2>
+                            <p class="lead-lg mb-4 reveal">Explore the latest stories, achievements, and inspiring
+                                ideas from Air University, highlighting the people, research, and innovations shaping
+                                the future.</p>
+                            <a href="#" class="btn btn-au btn-lg reveal">AU Report <i
+                                    class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="row g-4" data-reveal-group>
+                            <!-- Replace images/titles per story; one card repeated 4x here as a template -->
+                            <div class="col-md-6 reveal">
+                                <a href="#" class="card-link">
+                                    <article class="card card-au card-news">
+                                        <div class="card-media">
+                                            <img src="https://plus.unsplash.com/premium_photo-1661436558976-540ff4f4459f?q=80&w=872&auto=format&fit=crop"
+                                                alt="Students collaborating on campus" loading="lazy">
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <p class="section-eyebrow mb-2">News · Science &amp; Engineering</p>
+                                            <h3 class="h5 card-title">Where Heritage Meets High-Tech</h3>
+                                            <p class="text-muted-au">In the heart of Pakistan’s cultural capital, Air
+                                                University Lahore pairs centuries-old intellectual tradition with
+                                                cutting-edge engineering and business programs.</p>
+                                            <div class="card-footer-meta small text-muted-au">5 min read · July 7, 2026
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                            <div class="col-md-6 reveal">
+                                <a href="#" class="card-link">
+                                    <article class="card card-au card-news">
+                                        <div class="card-media">
+                                            <img src="https://plus.unsplash.com/premium_photo-1661306437817-8ab34be91e0c?q=80&w=1170&auto=format&fit=crop"
+                                                alt="Engineering lab session" loading="lazy">
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <p class="section-eyebrow mb-2">News · Science &amp; Engineering</p>
+                                            <h3 class="h5 card-title">Where Heritage Meets High-Tech</h3>
+                                            <p class="text-muted-au">In the heart of Pakistan’s cultural capital, Air
+                                                University Lahore pairs centuries-old intellectual tradition with
+                                                cutting-edge engineering and business programs.</p>
+                                            <div class="card-footer-meta small text-muted-au">5 min read · July 7, 2026
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                            <div class="col-md-6 reveal">
+                                <a href="#" class="card-link">
+                                    <article class="card card-au card-news">
+                                        <div class="card-media">
+                                            <img src="https://plus.unsplash.com/premium_photo-1684820878202-52781d8e0ea9?q=80&w=1171&auto=format&fit=crop"
+                                                alt="Graduates at convocation" loading="lazy">
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <p class="section-eyebrow mb-2">News · Science &amp; Engineering</p>
+                                            <h3 class="h5 card-title">Where Heritage Meets High-Tech</h3>
+                                            <p class="text-muted-au">In the heart of Pakistan’s cultural capital, Air
+                                                University Lahore pairs centuries-old intellectual tradition with
+                                                cutting-edge engineering and business programs.</p>
+                                            <div class="card-footer-meta small text-muted-au">5 min read · July 7, 2026
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                            <div class="col-md-6 reveal">
+                                <a href="#" class="card-link">
+                                    <article class="card card-au card-news">
+                                        <div class="card-media">
+                                            <img src="https://plus.unsplash.com/premium_photo-1770393605567-c3a5673a42ee?q=80&w=1170&auto=format&fit=crop"
+                                                alt="Research team at work" loading="lazy">
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <p class="section-eyebrow mb-2">News · Science &amp; Engineering</p>
+                                            <h3 class="h5 card-title">Where Heritage Meets High-Tech</h3>
+                                            <p class="text-muted-au">In the heart of Pakistan’s cultural capital, Air
+                                                University Lahore pairs centuries-old intellectual tradition with
+                                                cutting-edge engineering and business programs.</p>
+                                            <div class="card-footer-meta small text-muted-au">5 min read · July 7, 2026
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CAMPUS ===== -->
+        <section class="split-section bg-white" id="campus">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="sticky-col">
+                            <span class="section-eyebrow reveal">Campuses</span>
+                            <h2 class="display-5 display-title mt-3 mb-3 reveal">AU Campus</h2>
+                            <p class="lead-lg mb-4 reveal">Discover the unique character of each Air University
+                                campus, where students, faculty, and residents come together to build a richer, more
+                                connected world.</p>
+                            <a href="#" class="btn btn-au btn-lg reveal">Explore All Campuses <i
+                                    class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="row g-4">
+                            <!-- Full width -->
+                            <div class="col-12 reveal">
+                                <article class="card card-au card-campus">
+                                    <div class="card-media">
+                                        <img src="https://www.au.edu.pk/assets/images/islamabad.png"
+                                            alt="Islamabad campus" loading="lazy">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <span class="section-eyebrow mb-2">Islamabad</span>
+                                        <h3 class="h4 card-title">The Capital Hub of Innovation</h3>
+                                        <p class="text-muted-au">Nestled against the Margalla Hills, our Islamabad
+                                            campus blends modern research facilities with the serenity of Pakistan’s
+                                            greenest city. Home to our AI and aerospace labs, it’s where bold ideas
+                                            take flight.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au"><i class="fas fa-map-marker-alt text-au-primary me-1"></i>
+                                                Main Campus · Est. 2002</span>
+                                            <a href="#" class="link-arrow">Discover <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <!-- Half width x2 -->
+                            <div class="col-md-6 reveal">
+                                <article class="card card-au card-campus">
+                                    <div class="card-media">
+                                        <img src="data:image/jpeg;base64,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"
+                                            alt="Karaci campus" loading="lazy">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <span class="section-eyebrow mb-2">Karachi</span>
+                                        <h3 class="h5 card-title">Where Heritage Meets High-Tech</h3>
+                                        <p class="text-muted-au small">In the heart of Pakistan’s cultural capital,
+                                            Air University Lahore pairs centuries-old intellectual tradition with
+                                            cutting-edge engineering and business programs.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au"><i class="fas fa-map-marker-alt text-au-primary me-1"></i>
+                                                City Campus</span>
+                                            <a href="#" class="link-arrow">Discover <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6 reveal" style="--reveal-delay:120ms">
+                                <article class="card card-au card-campus">
+                                    <div class="card-media">
+                                        <img src="data:image/jpeg;base64,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"
+                                            alt="Kamra campus" loading="lazy">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <span class="section-eyebrow mb-2">Kamra</span>
+                                        <h3 class="h5 card-title">Aviation Excellence in the Hills</h3>
+                                        <p class="text-muted-au small">Set beside the Pakistan Aeronautical Complex,
+                                            our Kamra campus is the beating heart of aerospace and avionics education,
+                                            shaping the future of flight.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au"><i class="fas fa-map-marker-alt text-au-primary me-1"></i>
+                                                Aerospace Campus</span>
+                                            <a href="#" class="link-arrow">Discover <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <!-- Wide x2 -->
+                            <div class="col-12 reveal">
+                                <article class="card card-au card-campus is-wide">
+                                    <div class="card-media">
+                                        <img src="https://www.au.edu.pk/assets/images/multan.jpg"
+                                            alt="Multan campus" loading="lazy">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <span class="section-eyebrow mb-2">Multan</span>
+                                        <h3 class="h4 card-title">Gateway to Southern Scholarship</h3>
+                                        <p class="text-muted-au small">Known as the City of Saints, Multan brings
+                                            warmth, history, and a thriving academic spirit to Air University. Our
+                                            campus here focuses on business, computing, and community development.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au"><i class="fas fa-map-marker-alt text-au-primary me-1"></i>
+                                                South Campus · Est. 2018</span>
+                                            <a href="#" class="link-arrow">Discover <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 reveal">
+                                <article class="card card-au card-campus is-wide">
+                                    <div class="card-media">
+                                        <img src="https://www.au.edu.pk/assets/images/kharian_Campus.png"
+                                            alt="Peshawar campus" loading="lazy">
+                                    </div>
+                                    <div class="card-body d-flex flex-column">
+                                        <span class="section-eyebrow mb-2">Kharian</span>
+                                        <h3 class="h4 card-title">Resilience, Research &amp; Renewal</h3>
+                                        <p class="text-muted-au small">In one of the world’s oldest living cities, Air
+                                            University Kharian stands as a beacon of opportunity, turning regional
+                                            challenges into global breakthroughs.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au"><i class="fas fa-map-marker-alt text-au-primary me-1"></i>
+                                                Regional Campus · Est. 2021</span>
+                                            <a href="#" class="link-arrow">Discover <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== FACULTIES ===== -->
+        <section class="split-section bg-au-soft" id="faculties">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="sticky-col">
+                            <span class="section-eyebrow reveal">Academics</span>
+                            <h2 class="display-5 display-title mt-3 mb-3 reveal">AU Faculties</h2>
+                            <p class="lead-lg mb-4 reveal">Air University brings together diverse faculties offering
+                                quality education, innovative research, and professional development across multiple
+                                disciplines. Our academic programs empower students with the knowledge, skills, and
+                                critical thinking needed to excel in their chosen fields and contribute to society.</p>
+                            <a href="https://www.au.edu.pk/" target="_blank" rel="noopener"
+                                class="btn btn-au btn-lg reveal">Explore All Faculties <i
+                                    class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+ 
+                    <div class="col-lg-7">
+                        <!-- Bento grid: each tile links to the faculty page (opens in a new tab) -->
+                        <div class="faculty-grid" data-reveal-group>
+                            <a class="faculty-tile faculty-lg reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/Engineering/faculty_engineering_about.aspx">
+                                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1000&q=75"
+                                    alt="Engineer measuring technical drawings with a caliper" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">01</span>
+                                <span class="faculty-name">Faculty of Engineering</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/SocialSciences/academics_faculty_social_sciences.aspx">
+                                <img src="https://images.unsplash.com/photo-1758270704787-615782711641?auto=format&fit=crop&w=600&q=75"
+                                    alt="Students talking and studying in a lecture hall" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">02</span>
+                                <span class="faculty-name">Faculty of Social Sciences</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/Basic_Applied_Sciences/faclty_applied_about.aspx">
+                                <img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&fit=crop&w=600&q=75"
+                                    alt="Scientist using a pipette with test tubes in a lab" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">03</span>
+                                <span class="faculty-name">Basic and Applied Sciences</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile faculty-tall reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://fazaiamedical.edu.pk/">
+                                <img src="https://images.unsplash.com/photo-1758691463203-cce9d415b2b5?auto=format&fit=crop&w=600&q=75"
+                                    alt="Two doctors reviewing a tablet together" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">04</span>
+                                <span class="faculty-name">Faculty of Health Sciences</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile faculty-wide reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/IAA/iaa.aspx">
+                                <img src="https://images.unsplash.com/photo-1694698555485-209165020925?auto=format&fit=crop&w=1000&q=75"
+                                    alt="Airplane cockpit with many controls" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">05</span>
+                                <span class="faculty-name">Institute of Avionics and Aeronautics</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/DASSS/Departments/AerospaceSciences/dept_aerospace_about.aspx">
+                                <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=600&q=75"
+                                    alt="Spacecraft taking off during daytime" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">06</span>
+                                <span class="faculty-name">Faculty of Aerospace and Strategic Studies</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/NCSA/NCSA_DEAN_Message.aspx">
+                                <img src="https://images.unsplash.com/photo-1614064548237-096f735f344f?auto=format&fit=crop&w=600&q=75"
+                                    alt="Padlock on a laptop with light trails" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">07</span>
+                                <span class="faculty-name">National Cyber Security Academy (NCSA)</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile faculty-wide reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/FCAI_dean_msg.aspx">
+                                <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1000&q=75"
+                                    alt="Computer circuit board with a brain graphic" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">08</span>
+                                <span class="faculty-name">Computing and Artificial Intelligence</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                            <a class="faculty-tile reveal reveal-zoom" target="_blank" rel="noopener"
+                                href="https://webdata.au.edu.pk/Pages/Faculties/AUSOM/Department/AUSOM/ausom_about.aspx">
+                                <img src="https://images.unsplash.com/photo-1551135049-8a33b5883817?auto=format&fit=crop&w=600&q=75"
+                                    alt="Four colleagues reviewing papers on a table" loading="lazy" onerror="this.style.display='none'">
+                                <span class="faculty-num">09</span>
+                                <span class="faculty-name">Air University School of Management</span>
+                                <i class="fas fa-arrow-up-right-from-square faculty-go" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ACADEMIC PROGRAMMES ===== -->
+        <section class="programs-section" id="programs">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-9">
+                        <span class="section-eyebrow reveal">Programmes</span>
+                        <h2 class="display-3 display-title mt-3 reveal">AU Academic Programs</h2>
+                        <p class="lead-lg mt-4 mb-4 reveal">Air University offers a diverse range of undergraduate and
+                            postgraduate programs designed to build knowledge, develop practical skills, and foster
+                            innovation. Our academic programs prepare students to meet industry demands, advance their
+                            careers, and make meaningful contributions to society.</p>
+                        <a href="#faculties" class="btn btn-au btn-lg reveal">Explore Programmes <i
+                                class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+ 
+                <!-- Large feature image -->
+                <div class="row mt-5">
+                    <div class="col-12 reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1758270705031-ebd46917a454?auto=format&fit=crop&w=2000&q=75"
+                            class="programs-hero-img" alt="Teacher instructing students in a university classroom"
+                            loading="lazy" onerror="this.style.visibility='hidden'">
+                    </div>
+                </div>
+ 
+                <!-- Enrolment cards (numbers count up on scroll via js/animations.js) -->
+                <div class="row g-4 mt-4 pb-5" data-reveal-group>
+                    <div class="col-md-4 reveal">
+                        <article class="program-card">
+                            <div class="program-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
+                            <h3 class="program-title">Undergraduate Programmes</h3>
+                            <div class="program-count" data-count="10500">10,500</div>
+                            <p class="program-label">Enrolled students</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <article class="program-card">
+                            <div class="program-icon"><i class="fas fa-book-open" aria-hidden="true"></i></div>
+                            <h3 class="program-title">Master’s Programmes</h3>
+                            <div class="program-count" data-count="1219">1,219</div>
+                            <p class="program-label">Enrolled students</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <article class="program-card">
+                            <div class="program-icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></div>
+                            <h3 class="program-title">PhD Programmes</h3>
+                            <div class="program-count" data-count="285">285</div>
+                            <p class="program-label">Enrolled students</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== VICE CHANCELLOR ===== -->
+        <section class="vc-section" id="leadership">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <h2 class="display-5 vc-name mb-3 reveal reveal-left">Air Marshal (Retd) Abdul Moeed Khan,
+                            HI(M)</h2>
+                        <p class="vc-tag mb-4 reveal reveal-left" style="--reveal-delay:100ms">Message from the Vice
+                            Chancellor</p>
+                        <blockquote class="vc-quote reveal reveal-left" style="--reveal-delay:200ms">
+                            “It is a privilege to lead an institution which has excelled in teaching, learning, and
+                            interdisciplinary research with a wide range of undergraduate, master, and Ph.D. programs
+                            in cutting-edge technologies….”
+                        </blockquote>
+                        <a href="#" class="btn btn-au-gold btn-lg mt-4 reveal reveal-left"
+                            style="--reveal-delay:300ms">Read more <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                    <div class="col-lg-6 reveal reveal-right">
+                        <img src="images/VC.png" class="vc-photo"
+                            alt="Air Marshal (Retd) Abdul Moeed Khan, Vice Chancellor" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== RESEARCH ===== -->
+        <section class="research-section" id="research">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-9">
+                        <span class="section-eyebrow reveal">Research</span>
+                        <h2 class="display-3 display-title mt-3 reveal">Research for a Better World</h2>
+                        <p class="lead-lg mt-4 mb-4 reveal">Solving society’s pressing challenges requires
+                            state-of-the-art laboratories and smart people. It also takes a deep belief in the power of
+                            cross-disciplinary collaboration and the audacity to go in new directions.</p>
+                        <a href="#" class="btn btn-au btn-lg reveal">Research <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12 reveal reveal-zoom">
+                        <img src="https://img.magnific.com/free-photo/3d-medical-technology-design-male-figure-with-brain-highlighted_1048-10787.jpg?semt=ais_hybrid&w=740&q=80"
+                            class="research-hero-img" alt="Researchers collaborating in a laboratory" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Stats: replace placeholder figures/labels with real, verified data -->
+                <div class="stats-band">
+                    <div class="row g-3" data-reveal-group>
+                        <div class="col-6 col-lg-3 reveal">
+                            <div class="stat-card">
+                                <div class="stat-number" data-count="100" data-prefix="Rs." data-suffix="B">Rs.100B</div>
+                                <p class="stat-label">Private investment in companies that grew out of funded Air University research</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 reveal">
+                            <div class="stat-card">
+                                <div class="stat-number" data-count="250" data-suffix="+">250+</div>
+                                <p class="stat-label">Placeholder: research publications per year</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 reveal">
+                            <div class="stat-card">
+                                <div class="stat-number" data-count="40" data-suffix="+">40+</div>
+                                <p class="stat-label">Placeholder: active research labs</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 reveal">
+                            <div class="stat-card">
+                                <div class="stat-number" data-count="15" data-suffix="K">15K</div>
+                                <p class="stat-label">Placeholder: students across all campuses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-5 pb-5">
+                    <div class="col-lg-5">
+                        <div class="sticky-col">
+                            <h3 class="display-6 display-title text-white mb-3 reveal" style="color:#fff">Achieving the promise of
+                                human-centered AI</h3>
+                            <p class="research-lead lead-lg mb-4 reveal" style="color:rgba(255,255,255,.85)">Discover how our researchers,
+                                students and partners turn ideas into solutions that serve people and communities.</p>
+                            <a href="#" class="btn btn-au-gold btn-lg reveal">Our Impact <i
+                                    class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-4" data-reveal-group>
+                            <div class="col-md-6 reveal">
+                                <article class="card card-au card-light-tint">
+                                    <div class="card-body d-flex flex-column">
+                                        <h4 class="h5 card-title">Where Heritage Meets High-Tech</h4>
+                                        <p class="text-muted-au small">In the heart of Pakistan’s cultural capital, Air
+                                            University Lahore pairs centuries-old intellectual tradition with
+                                            cutting-edge engineering and business programs.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au">5 min read · July 7, 2026</span>
+                                            <a href="#" class="link-arrow">Read <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6 reveal">
+                                <article class="card card-au card-light-tint">
+                                    <div class="card-body d-flex flex-column">
+                                        <h4 class="h5 card-title">Where Heritage Meets High-Tech</h4>
+                                        <p class="text-muted-au small">In the heart of Pakistan’s cultural capital, Air
+                                            University Lahore pairs centuries-old intellectual tradition with
+                                            cutting-edge engineering and business programs.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au">5 min read · July 7, 2026</span>
+                                            <a href="#" class="link-arrow">Read <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6 reveal">
+                                <article class="card card-au">
+                                    <div class="card-body d-flex flex-column">
+                                        <span class="section-eyebrow mb-2">Multan</span>
+                                        <h4 class="h5 card-title">Gateway to Southern Scholarship</h4>
+                                        <p class="text-muted-au small">Known as the City of Saints, Multan brings
+                                            warmth, history, and a thriving academic spirit to Air University.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au"><i class="fas fa-map-marker-alt text-au-primary me-1"></i>
+                                                South Campus</span>
+                                            <a href="#" class="link-arrow">Discover <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6 reveal">
+                                <article class="card card-au">
+                                    <div class="card-body d-flex flex-column">
+                                        <span class="section-eyebrow mb-2">Peshawar</span>
+                                        <h4 class="h5 card-title">Resilience, Research &amp; Renewal</h4>
+                                        <p class="text-muted-au small">In one of the world’s oldest living cities, Air
+                                            University Peshawar turns regional challenges into global breakthroughs.</p>
+                                        <div
+                                            class="card-footer-meta d-flex justify-content-between align-items-center small">
+                                            <span class="text-muted-au"><i class="fas fa-map-marker-alt text-au-primary me-1"></i>
+                                                Regional Campus</span>
+                                            <a href="#" class="link-arrow">Discover <i class="fas fa-arrow-right ms-1"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- ===== ATHLETICS ===== -->
+        <section class="athletics-section" id="athletics">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-9">
+                        <span class="section-eyebrow reveal">Athletics</span>
+                        <h2 class="display-3 display-title mt-3 reveal">Excellence Beyond Academics</h2>
+                        <p class="lead-lg mt-4 mb-4 reveal">Air University’s athletics program promotes sporting
+                            excellence, teamwork, and a competitive spirit. Our sports teams empower students to
+                            showcase their talents, represent the university with pride, and pursue excellence at
+                            inter-university and national competitions.</p>
+                        <a href="#" class="btn btn-au btn-lg reveal">Explore Athletics <i
+                                class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+ 
+                <!-- Large feature image -->
+                <div class="row mt-5">
+                    <div class="col-12 reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1506277826-0c67dfa382c6?auto=format&fit=crop&w=2000&q=75"
+                            class="athletics-hero-img" alt="Crowd and players at a packed sports stadium"
+                            loading="lazy" onerror="this.style.visibility='hidden'">
+                    </div>
+                </div>
+ 
+                <!-- Bento grid (photos: Unsplash, free to use) -->
+                <div class="bento-grid mt-5 pb-5" data-reveal-group>
+                    <figure class="bento-item bento-lg reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1200&q=75"
+                            alt="Women playing volleyball on an indoor court" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Volleyball</figcaption>
+                    </figure>
+                    <figure class="bento-item reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1485400031595-976c74cf4e25?auto=format&fit=crop&w=700&q=75"
+                            alt="Football match in progress during the day" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Football</figcaption>
+                    </figure>
+                    <figure class="bento-item reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1521055170349-25f955971658?auto=format&fit=crop&w=700&q=75"
+                            alt="Basketball court filled with players and spectators" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Basketball</figcaption>
+                    </figure>
+                    <figure class="bento-item bento-wide reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1698671823406-035c77ff6fcd?auto=format&fit=crop&w=1200&q=75"
+                            alt="Sprinter starting a race on a red track" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Sprint</figcaption>
+                    </figure>
+                    <figure class="bento-item bento-tall reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=700&q=75"
+                            alt="Athlete running on a track field" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Track &amp; Field</figcaption>
+                    </figure>
+                    <figure class="bento-item reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?auto=format&fit=crop&w=700&q=75"
+                            alt="Basketball player dunking in a dark gym" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Slam dunk</figcaption>
+                    </figure>
+                    <figure class="bento-item reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1525088068454-ff2c453e50e9?auto=format&fit=crop&w=700&q=75"
+                            alt="Girls playing football on a pitch" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Women’s football</figcaption>
+                    </figure>
+                    <figure class="bento-item reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1480099225005-2513c8947aec?auto=format&fit=crop&w=700&q=75"
+                            alt="Rugby players in a scrum on a grass field" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Rugby</figcaption>
+                    </figure>
+                    <figure class="bento-item bento-wide reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1538352886333-5233ad94cb8b?auto=format&fit=crop&w=1200&q=75"
+                            alt="Team of women standing together on a court" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Team spirit</figcaption>
+                    </figure>
+                    <figure class="bento-item reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=700&q=75"
+                            alt="Player in a jersey on the field" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>On the field</figcaption>
+                    </figure>
+                    <figure class="bento-item bento-banner reveal reveal-zoom">
+                        <img src="https://images.unsplash.com/photo-1475116730596-402cbd4ff6c1?auto=format&fit=crop&w=1800&q=75"
+                            alt="Team of players standing together on a field" loading="lazy" onerror="this.style.display='none'">
+                        <figcaption>Representing Air University with pride</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <p class="font-heading h4 text-white mb-2">Air <span class="text-au-gold fw-light">University</span></p>
+                    <p class="small mb-0">Advancing the frontier through research, education and service.</p>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h2>Explore</h2>
+                    <ul class="list-unstyled small mb-0">
+                        <li><a href="#welcome">About</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#campus">Campuses</a></li>
+                        <li><a href="#research">Research</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2>Admissions</h2>
+                    <ul class="list-unstyled small mb-0">
+                        <li><a href="#">Apply Now</a></li>
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Fee &amp; Scholarships</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <div class="social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-light opacity-25 my-4">
+            <p class="small text-center mb-0">&copy; 2026 Air University. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Bootstrap 5.3.8 bundle (single version) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Animations -->
+    <script src="animations.js"></script>
+</body>
+
+</html>

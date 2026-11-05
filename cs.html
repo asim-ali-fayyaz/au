@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Computer Science and Artificial Intelligence | Air University</title>
+    <meta name="description"
+        content="Department of Computer Science at Air University: mission, programme objectives, chair's message, programs offered, research groups and industrial advisory board.">
+    <meta name="theme-color" content="#0a0a0c">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.3.8 (grid + utilities only; no Bootstrap JS needed on this page) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Page styles (black + gold, Air University fonts) -->
+    <link rel="stylesheet" href="cs.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ===== HEADER: brand bar + department sub-navigation ===== -->
+    <header class="cs-header">
+        <div class="cs-topbar">
+            <div class="container">
+                <a href="index.html" class="cs-brand" aria-label="Air University home">
+                    <img src="images/logo-golden.png" alt="Air University" width="300" height="238">
+                    <span class="cs-brand-label">Computer Science &amp; AI<small>Air University</small></span>
+                </a>
+                <div class="actions">
+                    <a class="back-link" href="index.html#faculties"><i class="fas fa-arrow-left me-1"></i> All Faculties</a>
+                    <a class="btn-cs-ink" href="#">Apply Now</a>
+                </div>
+            </div>
+        </div>
+        <nav class="cs-subnav" aria-label="Department sections">
+            <div class="container">
+                <ul>
+                    <li><a href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/FCAI_Introduction.aspx" target="_blank" rel="noopener">Home<i class="fas fa-arrow-up-right-from-square ext" aria-hidden="true"></i></a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#chair">Chair Department</a></li>
+                    <li><a href="#programs">Programs Offered</a></li>
+                    <li><a href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programdesc.aspx" target="_blank" rel="noopener">Programs Description<i class="fas fa-arrow-up-right-from-square ext" aria-hidden="true"></i></a></li>
+                    <li><a href="#research">Research Groups</a></li>
+                    <li><a href="#board">Industrial Advisory Board</a></li>
+                    <li><a href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_Socities.aspx" target="_blank" rel="noopener">Societies and Extra Curricular Activities<i class="fas fa-arrow-up-right-from-square ext" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- ===== HERO ===== -->
+        <section class="cs-hero" id="top" aria-label="Computer Science and Artificial Intelligence">
+            <img class="cs-hero__img"
+                src="https://images.unsplash.com/photo-1744640326166-433469d102f2?auto=format&fit=crop&w=2000&q=75"
+                alt="" onerror="this.style.display='none'">
+            <div class="container pt-5">
+                <!-- <ol class="crumbs reveal">
+                    <li><a href="index.html">Air University</a></li>
+                    <li><a href="index.html#faculties">Faculties</a></li>
+                    <li aria-current="page">Computing and Artificial Intelligence</li>
+                </ol> -->
+               <div class="col-lg-8 offset-lg-2 text-center">
+                 <h1 class="reveal">Department of <em>Computer Science</em></h1>
+                <p class="lead-hero reveal" style="--reveal-delay:120ms">Quality education producing highly skilled
+                    professionals in CS, IT and Bioinformatics, built on a strong relationship with industry and
+                    society.</p>
+                <div class="hero-tags reveal mb-5" style="--reveal-delay:200ms">
+                    <span>Computer Science</span><span>Information Technology</span><span>Bioinformatics</span>
+                </div>
+                <div class="d-flex justify-content-center gap-3 mb-5 reveal" style="--reveal-delay:280ms">
+                    <a href="#programs" class="btn-cs">Programs Offered <i class="fas fa-arrow-right"></i></a>
+                    <a href="#chair" class="btn-cs-line">Message from the Chair</a>
+                </div>
+              
+               </div>
+                 <div class="col-lg-12 reveal reveal-zoom" style="--reveal-delay:360ms">
+                    <img src="https://plus.unsplash.com/premium_photo-1664297989345-f4ff2063b212?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                        alt="Computer screen filled with code" class="hero-photo" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <!-- Key facts (all taken from the department content) -->
+        <div class="hero-stats">
+            <div class="container">
+                <div class="stats-band reveal reveal-zoom">
+                    <div class="row g-3" data-reveal-group>
+                        <div class="col-6 col-lg-3"><div class="stat-card">
+                            <div class="stat-num" data-count="6">6</div>
+                            <p class="stat-label">Programmes: Bachelor, Master and PhD</p></div></div>
+                        <div class="col-6 col-lg-3"><div class="stat-card">
+                            <div class="stat-num" data-count="20">20</div>
+                            <p class="stat-label">Industry partners on the advisory board</p></div></div>
+                        <div class="col-6 col-lg-3"><div class="stat-card">
+                            <div class="stat-num" data-count="73" data-decimals="1" data-prefix="Rs. " data-suffix="M">Rs. 73.0M</div>
+                            <p class="stat-label">Funding secured in 2018 from the Planning Commission</p></div></div>
+                        <div class="col-6 col-lg-3"><div class="stat-card">
+                            <div class="stat-num">HEC · NCEAC</div>
+                            <p class="stat-label">All offered programs are recognised</p></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== INTRODUCTION ===== -->
+        <section class="cs-section" id="introduction">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <span class="eyebrow reveal">Introduction</span>
+                        <h2 class="cs-title mt-3 mb-4 reveal">Mission Statement</h2>
+                        </div>
+                        <div class="mission-card reveal">
+                            <p>The department mission is to provide quality education and produce highly skilled
+                                professionals in the areas of CS, IT, and Bioinformatics. The graduates are proficient
+                                at solving the local and global research and development problems effectively with
+                                social responsibility. The department stands committed to creating a strong
+                                relationship with industry and society to address contemporary and future challenges.</p>
+                        </div>
+                               </div>
+                  
+                </div>
+
+                <div class="text-center mt-5 pt-4">
+                    <span class="eyebrow reveal">What graduates achieve</span>
+                    <h2 class="cs-title mt-3 mb-5 reveal">Program Objectives (POs)</h2>
+                </div>
+                <div class="row g-4" data-reveal-group>
+                    <div class="col-md-4 reveal">
+                        <article class="po-card">
+                            <span class="po-tag">PO 1</span>
+                            <h3>Computing knowledge, skills, and creativity</h3>
+                            <p>Demonstrate computing knowledge and skills with a strong focus on innovation,
+                                entrepreneurship and life-long learning.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <article class="po-card">
+                            <span class="po-tag">PO 2</span>
+                            <h3>Ethics and social responsibility</h3>
+                            <p>Have ethical and moral values along with a keen sense of social responsibility.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <article class="po-card">
+                            <span class="po-tag">PO 3</span>
+                            <h3>Communication and Leadership Skills</h3>
+                            <p>Have effective communication skills required in the computing profession, as a team
+                                player or a leader for industry and society.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+        <!-- ===== CHAIR DEPARTMENT ===== -->
+        <section class="cs-section chair-section on-dark" id="chair">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 col-xl-4">
+                        <figure class="chair-photo reveal reveal-left">
+                            <img src="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/Assets/1505s.jpg" alt="Dr. Ashfaq Hussain Farooqi"
+                                onerror="this.remove()">
+                            <span class="chair-photo__initials" aria-hidden="true">AF</span>
+                            <figcaption>
+                                <strong>Dr. Ashfaq Hussain Farooqi</strong>
+                                <span>Associate Professor</span>
+                                <span>Chair, Department of Computer Science</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-7 col-xl-8 chair-msg">
+                        <span class="eyebrow reveal">Chair Department</span>
+                        <h2 class="cs-title mt-3 mb-4 reveal">Message from the Chair</h2>
+                        <h3 class="welcome reveal">Welcome to the Department of Computer Science at Air University, Islamabad!</h3>
+                        <p class="first chair-excerpt reveal">I welcome you all to the Department of Computer Science at Air
+                            University, Islamabad. Computing has become more accessible rather ubiquitous than ever
+                            before it has been in the past. It has almost taken everything under its novelty starting
+                            from simple voice messages to natural language and speech processing, helping machines to
+                            mimic vision ability that sometimes surpasses the humans and the list goes on.</p>
+                        <div class="chair-facts reveal">
+                            <span><i class="fas fa-circle-check" aria-hidden="true"></i> HEC &amp; NCEAC recognised</span>
+                            <span><i class="fas fa-coins" aria-hidden="true"></i> Rs. 73.0m funding in 2018</span>
+                        </div>
+                        <button type="button" class="btn-cs mt-4 reveal" data-chair-open aria-haspopup="dialog" aria-controls="chairModal">
+                            Read more <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Chair message: full text (opens from "Read more") -->
+<dialog class="chair-modal on-dark" id="chairModal" aria-labelledby="chairModalTitle">
+            <div class="chair-modal__panel">
+                <button type="button" class="chair-modal__close" data-chair-close aria-label="Close message"><i class="fas fa-xmark"></i></button>
+                <div class="chair-modal__body chair-msg">
+                    <header class="chair-modal__head">
+                        <span class="eyebrow">Chair Department</span>
+                        <h2 id="chairModalTitle" class="cs-title mt-2 mb-4">Message from the Chair</h2>
+                        <div class="chair-round">
+                            <img src="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/Assets/1505s.jpg" alt="Dr. Ashfaq Hussain Farooqi" onerror="this.remove()">
+                            <span aria-hidden="true">AF</span>
+                        </div>
+                        <strong class="chair-modal__name">Dr. Ashfaq Hussain Farooqi</strong>
+                        <span class="chair-modal__role">Associate Professor · Chair, Department of Computer Science</span>
+                    </header>
+                    <h3 class="welcome">Welcome to the Department of Computer Science at Air University, Islamabad!</h3>
+ 
+                    <p class="first">I welcome you all to the Department of Computer Science at Air
+                        University, Islamabad. Computing has become more accessible rather ubiquitous than ever
+                        before it has been in the past. It has almost taken everything under its novelty starting
+                        from simple voice messages to natural language and speech processing, helping machines to
+                        mimic vision ability that sometimes surpasses the humans and the list goes on.</p>
+                    <p>Computer Science is one of the leading Departments of Air University and
+                        offers Undergraduate, Master, and Ph.D. programs. All of the offered programs are duly
+                        recognized by the Higher Education Commission (HEC) and NCEAC, Pakistan. The Department
+                        strongly believes in industry and academia collaboration and we have been continuously
+                        revising our curriculum by adding different advanced courses and updating courses outlines
+                        with consultations of industrial experts and practitioners.</p>
+                    <p>Department of Computer Science has been producing high-quality graduates for
+                        the past several years and aims at producing more in years to come. Our graduates have been
+                        working at various internationally acclaimed organizations such as Netsol, SBP, Huawei,
+                        Teradata, IBM, Microsoft, and contributing at many local companies.</p>
+                    <ul class="employers" aria-label="Organizations where graduates work">
+                        <li>Netsol</li><li>SBP</li><li>Huawei</li><li>Teradata</li><li>IBM</li><li>Microsoft</li>
+                    </ul>
+                    <p>Our faculty have earned degrees from reputable national and international
+                        universities. The faculty has published a significant number of research articles and won
+                        several funded projects. Department has secured around Rs. 73.0m in funding in 2018 through
+                        grants from the Planning Commission Govt. of Pakistan.</p>
+                    <div class="highlight"><strong>Rs. 73.0m</strong> in funding secured in 2018 through
+                        grants from the Planning Commission, Govt. of Pakistan.</div>
+                    <p>It is an exciting time for Computer Science &amp; IT Researchers, Teachers,
+                        and Students who are capable of making a difference in the world and emerge as developers,
+                        thinkers, and innovators. Computer Science will always be a field of study of choice with a
+                        lot of opportunities in Pakistan and abroad.</p>
+                    <p>We here at the Department of Computer Science are providing conducive
+                        environment that will help you to learn, grow, and serve the community. We have a highly
+                        qualified faculty which are enlightening students to open new horizons of knowledge. I wish
+                        you the best of luck in all of your academic endeavors here at the Department of Computer
+                        Science at Air University.</p>
+ 
+                    <div class="signature">
+                        <strong>Dr. Ashfaq Hussain Farooqi</strong>
+                        <span>Associate Professor<br>Chair (Department of Computer Science)</span>
+                    </div>
+                    <a class="link-arrow d-inline-block mt-4" style="color:var(--gold-2)" target="_blank" rel="noopener"
+                        href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_HOD.aspx">View on the official page <i class="fas fa-arrow-right ms-1"></i></a>
+                
+                </div>
+            </div>
+        </dialog>
+
+
+        <!-- ===== PROGRAMS OFFERED ===== -->
+        <section class="cs-section bg-cream" id="programs">
+            <div class="container">
+                <div class="row g-5 align-items-center mb-5">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <span class="eyebrow reveal">Programs Offered</span>
+                        <h2 class="cs-title mt-3 mb-3 reveal">Bachelor, Master and PhD programs</h2>
+                        <p class="cs-lead reveal">The department offers undergraduate, master and Ph.D. programs,
+                            all duly recognized by the Higher Education Commission (HEC) and NCEAC, Pakistan.</p>
+                        <a class="btn-cs reveal" target="_blank" rel="noopener"
+                            href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programdesc.aspx">Programs Description <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="col-lg-12 reveal reveal-right">
+                        <div class="photo-frame photo-wide">
+                            <img src="https://images.unsplash.com/photo-1758270704787-615782711641?auto=format&fit=crop&w=1200&q=75"
+                                alt="Students talking and studying in a lecture hall" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4" data-reveal-group>
+                    <div class="col-lg-6 reveal">
+                        <article class="prog-card">
+                            <div class="prog-head">
+                                <span class="prog-ico"><i class="fas fa-graduation-cap" aria-hidden="true"></i></span>
+                                <h3><small>Undergraduate</small>Bachelor Programs</h3>
+                            </div>
+                            <ul class="prog-list">
+                                <li><a target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programoffers.aspx#collapse1-1">Bachelor of Science in Computer Sciences (BSCS - Morning)<i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programoffers.aspx#collapse1-2">Bachelor of Science in Computer Sciences (BSCS - Afternoon)<i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programoffers.aspx#collapse1-8">Bachelor of Science in Information Technology (BSIT)<i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programoffers.aspx#collapse1-9">Bachelor of Bioinformatics (BSBIT)<i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <article class="prog-card">
+                            <div class="prog-head">
+                                <span class="prog-ico"><i class="fas fa-book-open" aria-hidden="true"></i></span>
+                                <h3><small>Postgraduate</small>Master Programs</h3>
+                            </div>
+                            <ul class="prog-list">
+                                <li><a target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programoffers.aspx#collapse2-7">Master of Science in Computer Sciences (MSCS Evening)<i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <article class="prog-card">
+                            <div class="prog-head">
+                                <span class="prog-ico"><i class="fas fa-user-graduate" aria-hidden="true"></i></span>
+                                <h3><small>Doctoral</small>Ph.D Programs</h3>
+                            </div>
+                            <ul class="prog-list">
+                                <li><a target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programoffers.aspx#collapse3-6">PhD Computer Science (PhD CS Evening)<i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== RESEARCH GROUPS ===== -->
+        <section class="cs-section" id="research">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <span class="eyebrow reveal">Research Groups</span>
+                        <h2 class="cs-title mt-3 mb-3 reveal">Where our researchers work</h2>
+                        <p class="cs-lead reveal">The faculty has published a significant number of research articles
+                            and won several funded projects. Explore the department's research groups.</p>
+                    </div>
+                </div>
+                <div class="group-grid" data-reveal-group>
+                    <a class="group-tile group-lg reveal reveal-zoom" target="_blank" rel="noopener"
+                        href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_Research_Group.aspx#collapse1-1">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=75"
+                            alt="Performance analytics graphs on a laptop screen" loading="lazy" onerror="this.style.display='none'">
+                        <span class="group-body"><span class="group-ico"><i class="fas fa-chart-pie" aria-hidden="true"></i></span>
+                            <h3>Data Science</h3><span class="more">Explore group <i class="fas fa-arrow-right ms-1"></i></span></span>
+                    </a>
+                    <a class="group-tile reveal reveal-zoom" target="_blank" rel="noopener"
+                        href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_Research_Group.aspx#collapse1-2">
+                        <img src="https://images.unsplash.com/photo-1764549906172-0153db0825bc?auto=format&fit=crop&w=900&q=75"
+                            alt="Double exposure of a face and traffic lights, representing image analysis" loading="lazy" onerror="this.style.display='none'">
+                        <span class="group-body"><span class="group-ico"><i class="fas fa-eye" aria-hidden="true"></i></span>
+                            <h3>Digital Image Processing</h3><span class="more">Explore group <i class="fas fa-arrow-right ms-1"></i></span></span>
+                    </a>
+                    <a class="group-tile reveal reveal-zoom" target="_blank" rel="noopener"
+                        href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_Research_Group.aspx#collapse1-3">
+                        <img src="https://images.unsplash.com/photo-1666214277657-e60f05c40b04?auto=format&fit=crop&w=700&q=75"
+                            alt="Medical professionals reviewing a brain scan on monitors" loading="lazy" onerror="this.style.display='none'">
+                        <span class="group-body"><span class="group-ico"><i class="fas fa-brain" aria-hidden="true"></i></span>
+                            <h3>Medical Image Processing</h3><span class="more">Explore group <i class="fas fa-arrow-right ms-1"></i></span></span>
+                    </a>
+                    <a class="group-tile group-wide reveal reveal-zoom" target="_blank" rel="noopener"
+                        href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_Research_Group.aspx#collapse1-4">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=75"
+                            alt="Network cables connected to a switch" loading="lazy" onerror="this.style.display='none'">
+                        <span class="group-body"><span class="group-ico"><i class="fas fa-network-wired" aria-hidden="true"></i></span>
+                            <h3>Networks &amp; IoT</h3><span class="more">Explore group <i class="fas fa-arrow-right ms-1"></i></span></span>
+                    </a>
+                </div>
+                <div class="text-center mt-4">
+                    <a class="link-arrow" target="_blank" rel="noopener"
+                        href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_Research_Group.aspx">View all research groups on the official page <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== INDUSTRIAL ADVISORY BOARD ===== -->
+        <section class="cs-section bg-cream" id="board">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <span class="eyebrow reveal">Industrial Advisory Board</span>
+                        <h2 class="cs-title mt-3 mb-3 reveal">Our industry partners</h2>
+                        <p class="cs-lead reveal">The department continuously revises its curriculum in consultation
+                            with industrial experts and practitioners. These organizations make up the industrial
+                            advisory board.</p>
+                    </div>
+                </div>
+
+                <!-- Logos load from public favicon services; a gold monogram appears when none can be found.
+                     To use an official logo, replace the img src with your own file (e.g. images/partners/nayatel.png). -->
+                <ol class="board-grid" data-reveal-group>
+                    <li class="reveal"><div class="board-card"><span class="board-no">1</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="PS"
+                            src="https://www.google.com/s2/favicons?domain=pseb.org.pk&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/pseb.org.pk.ico"></div>
+                        <p class="board-name">Pakistan Software Export Board (PSEB)</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">2</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="S&amp;P"
+                            src="https://www.google.com/s2/favicons?domain=spglobal.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/spglobal.com.ico"></div>
+                        <p class="board-name">S&amp;P Global</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">3</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="P@"
+                            src="https://www.google.com/s2/favicons?domain=pasha.org.pk&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/pasha.org.pk.ico"></div>
+                        <p class="board-name">P@SHA</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">4</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="GS"
+                            src="https://www.google.com/s2/favicons?domain=genetechsolutions.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/genetechsolutions.com.ico"></div>
+                        <p class="board-name">Genetech Solutions</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">5</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="VS"
+                            src="https://www.google.com/s2/favicons?domain=vizteck.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/vizteck.com.ico"></div>
+                        <p class="board-name">Vizteck Solutions</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">6</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="IT"
+                            src="https://www.google.com/s2/favicons?domain=itroos.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/itroos.com.ico"></div>
+                        <p class="board-name">ITROOS</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">7</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="DS"
+                            src="https://www.google.com/s2/favicons?domain=devsinc.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/devsinc.com.ico"></div>
+                        <p class="board-name">Devsinc</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">8</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="VT"
+                            src="https://www.google.com/s2/favicons?domain=vaival.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/vaival.com.ico"></div>
+                        <p class="board-name">Vaival Technologies</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">9</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="VW"
+                            src="https://www.google.com/s2/favicons?domain=vizzwebsolutions.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/vizzwebsolutions.com.ico"></div>
+                        <p class="board-name">Vizzweb Solutions</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">10</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="AL"
+                            src="https://www.google.com/s2/favicons?domain=algoryte.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/algoryte.com.ico"></div>
+                        <p class="board-name">Algoryte</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">11</span><div class="board-logo-box">
+                        <span class="board-mono" aria-hidden="true">31G</span></div>
+                        <p class="board-name">31Green</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">12</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="SP"
+                            src="https://www.google.com/s2/favicons?domain=speridian.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/speridian.com.ico"></div>
+                        <p class="board-name">Speridian Technology</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">13</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="NY"
+                            src="https://www.google.com/s2/favicons?domain=nayatel.com&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/nayatel.com.ico"></div>
+                        <p class="board-name">Nayatel</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">14</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="DA"
+                            src="https://www.google.com/s2/favicons?domain=diceanalytics.pk&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/diceanalytics.pk.ico"></div>
+                        <p class="board-name">Dice Analytics</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">15</span><div class="board-logo-box">
+                        <span class="board-mono" aria-hidden="true">AZ</span></div>
+                        <p class="board-name">Azm Technologies</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">16</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="MB"
+                            src="https://www.google.com/s2/favicons?domain=jazz.com.pk&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/jazz.com.pk.ico"></div>
+                        <p class="board-name">Mobilink</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">17</span><div class="board-logo-box">
+                        <img class="board-logo" alt="" loading="lazy" data-initials="PIA"
+                            src="https://www.google.com/s2/favicons?domain=piac.com.pk&sz=128" data-fallback="https://icons.duckduckgo.com/ip3/piac.com.pk.ico"></div>
+                        <p class="board-name">PIA</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">18</span><div class="board-logo-box">
+                        <span class="board-mono" aria-hidden="true">F</span></div>
+                        <p class="board-name">Futurenostics</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">19</span><div class="board-logo-box">
+                        <span class="board-mono" aria-hidden="true">AA</span></div>
+                        <p class="board-name">Aawaz AI</p></div></li>
+                    <li class="reveal"><div class="board-card"><span class="board-no">20</span><div class="board-logo-box">
+                        <span class="board-mono" aria-hidden="true">GS</span></div>
+                        <p class="board-name">GoSaaS</p></div></li>
+                </ol>
+                <div class="text-center mt-4">
+                    <a class="link-arrow" target="_blank" rel="noopener"
+                        href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_industrial_advisory_board.aspx">View on the official page <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== OFFICIAL PAGES ===== -->
+        <section class="cs-section more-band on-dark" id="more">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="eyebrow reveal">More from the department</span>
+                    <h2 class="cs-title mt-3 reveal">Explore the official pages</h2>
+                </div>
+                <div class="row g-4" data-reveal-group>
+                    <div class="col-md-4 reveal">
+                        <a class="more-card" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/FCAI_Introduction.aspx">
+                            <span class="ico"><i class="fas fa-house" aria-hidden="true"></i></span>
+                            <h3>Faculty Home</h3>
+                            <p>The home page of the Faculty of Computing and Artificial Intelligence.</p>
+                            <span class="go">Open page <i class="fas fa-arrow-up-right-from-square ms-1"></i></span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <a class="more-card" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_programdesc.aspx">
+                            <span class="ico"><i class="fas fa-book-open-reader" aria-hidden="true"></i></span>
+                            <h3>Programs Description</h3>
+                            <p>Detailed descriptions of every program the department offers.</p>
+                            <span class="go">Open page <i class="fas fa-arrow-up-right-from-square ms-1"></i></span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <a class="more-card" target="_blank" rel="noopener" href="https://webdata.au.edu.pk/Pages/Faculties/FCAI/Departments/CS/CS_Socities.aspx">
+                            <span class="ico"><i class="fas fa-people-group" aria-hidden="true"></i></span>
+                            <h3>Societies and Extra Curricular Activities</h3>
+                            <p>Student societies and activities beyond the classroom.</p>
+                            <span class="go">Open page <i class="fas fa-arrow-up-right-from-square ms-1"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="cs-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-5 foot-brand">
+                    <img src="images/logo.png" alt="Air University" width="300" height="238">
+                    <p class="small mb-0">Department of Computer Science, Faculty of Computing and Artificial Intelligence, Air University.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2>On this page</h2>
+                    <ul class="small">
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#chair">Chair Department</a></li>
+                        <li><a href="#programs">Programs Offered</a></li>
+                        <li><a href="#research">Research Groups</a></li>
+                        <li><a href="#board">Industrial Advisory Board</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4">
+                    <h2>Air University</h2>
+                    <ul class="small">
+                        <li><a href="index.html">Main website</a></li>
+                        <li><a href="index.html#faculties">All faculties</a></li>
+                        <li><a href="index.html#programs">Academic programs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-light opacity-25 my-4">
+            <p class="small text-center mb-0">&copy; 2026 Air University. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="cs.js"></script>
+</body>
+
+</html>
